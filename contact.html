@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>BUSINESS CENTER</h2>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Contactez-nous</h2>
+
+    <p>Téléphone : <strong>+22870470107</strong></p>
+
+    <h3>Formulaire WhatsApp</h3>
+
+    <label>Votre nom :</label>
+    <input id="nom" type="text" placeholder="Entrez votre nom" style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <label>Choisir un service :</label>
+    <select id="service" style="width:100%; padding:10px; margin-bottom:10px;">
+        <option value="">-- Sélectionner --</option>
+        <option>Création de site web</option>
+        <option>Demande de nationalité</option>
+        <option>Casier judiciaire</option>
+        <option>Demande de passport en ligne</option>
+        <option>Assurance AMU</option>
+        <option>Assurance AMU-TNS</option>
+        <option>Duplicata de nationalité</option>
+        <option>Autres services</option>
+    </select>
+
+    <button onclick="envoyerWhatsApp()" style="
+        background:#0d47a1; color:white; padding:12px; width:100%;
+        border:none; border-radius:5px; font-size:17px;">
+        Envoyer sur WhatsApp
+    </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
