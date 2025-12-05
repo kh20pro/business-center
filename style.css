@@ -51,7 +51,7 @@ nav ul li a:hover {
 /* Header / Accueil */
 header {
     height: 400px;
-    background: url('images/bg.jpg') center/cover no-repeat;
+    background: url('images/bg.jpeg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,3 +81,4 @@ header h1 {
     transform: scale(1.03);
     border-color: #0d47a1;
 }
+
